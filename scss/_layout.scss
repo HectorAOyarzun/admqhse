@@ -1,4 +1,4 @@
-.container__grid__index{
+.cont__grid__index{
     display:grid;
     grid-template-areas: 
     "links links links"
@@ -8,15 +8,15 @@
     "foot foot foot"
     ;
 }
-.content__nav__menu{
+.cont__nav__menu{
     grid-area: links;
   
 }
-.content__body{
+.cont__body{
     grid-area: content_index;
     
 }
-.content__footer{
+.cont__footer{
     grid-area: foot;
   
 }
