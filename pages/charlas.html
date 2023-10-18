@@ -17,7 +17,7 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Data aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Charlas de seguridad</title>
 </head>
 <body>
 <div class="cont__grid__index">
@@ -47,15 +47,101 @@
     </header>
 </header>
 
-<main class="cont__body" style="padding-top:120px;">
+<main class="cont__body" style="padding-top:90px;">
+<section class="portada">
+  <div class="portada__text">
+    <h2>CHARLAS DE SEGURIDAD</h2>
+  
 
-<section class="box">
+  </div>
+
+</section>
+<section class="title__charlas">
+  <h2>MENU</h2>
+</section>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Plan de emergencia 
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body acordion">
+       <ul>
+          <li>
+            <a class="acordion__menu" href="#PlanDeEmergencia">Plan de Emergencia</a>
+          </li>
+              <ul>
+              <li class="sub__item" style="display: flex;flex-direction: column;">
+                <a class="acordion__submenu" href="#SismoTerremoto">Sismo o Terremoto</a>
+                <a class="acordion__submenu" href="#Incendio">Incendio</a>
+                <a class="acordion__submenu" href="#Asalto">Asalto</a>
+                <a class="acordion__submenu" href="#Extintores">Extintores</a>
+              </li>
+            </ul>
+       </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Manejo manual de cargas
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body acordion">
+        <ul>
+          <li>
+            <a class="acordion__menu" href="#ManejoManualCarga">MANEJO MANUAL DE CARGAS</a>
+          </li>
+              <ul>
+              <li class="sub__item" style="display: flex;flex-direction: column;">
+                <a class="acordion__submenu" href="#UsoCorrectoMMC">Uso correcto de ayudas mecánicas</a>
+                <a class="acordion__submenu" href="#ManejoManualCarga-2">Manejo manual de cargas</a>
+                <a class="acordion__submenu" href="#ExplicacionMMC">Que se entiende por MMC</a>
+                <a class="acordion__submenu" href="#LesionesMMC">Lesiones asociadas al MMC</a>
+              </li>
+            </ul>
+       </ul>
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       ELementos de protección personal
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body acordion">
+
+        <ul>
+          <li>
+            <a class="acordion__menu" href="#ElementosProteccionPersonal">ELEMENTOS DE PROTECCÓN PERSONAL</a>
+          </li>
+              <ul>
+              <li class="sub__item" style="display: flex;flex-direction: column;">
+                <a class="acordion__submenu" href="#ElementosEPP">Elementos de protección personal</a>
+                <a class="acordion__submenu" href="#ResponsabilidadEPP">Responsabilidad del empleador</a>
+                <a class="acordion__submenu" href="#TiposEPP">Tipos de EPP</a>
+                <a class="acordion__submenu" href="#CuidadoEPP">Cuidado de EPP</a>
+              </li>
+            </ul>
+       </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<section class="box" id="PlanDeEmergencia">
     <div class="title__charlas">
-        <h2>CHARLAS DE SEGURIDAD</h2>
+        <h2>PLAN DE EMERGENCIA</h2>
     </div>
   <section class="box__charla">
 
-    <article class="box__charla__text">
+    <article class="box__charla__text" id="SismoTerremoto">
       <a  class="btn box__charla__text__button__sismo" data-bs-toggle="modal" data-bs-target="#exampleModal">               
         <h5><strong>SISMO O TERREMOTO</strong></h5>
           <p>
@@ -71,7 +157,7 @@
         </a>
     </article>
 
-      <article class="box__charla__50__text">
+      <article class="box__charla__50__text" id="Incendio">
       <a  class="btn  box__charla__50__text__button__incendio" data-bs-toggle="modal" data-bs-target="#incendio">               
         <h5><strong>INCENDIO</strong></h5>
           <p>
@@ -182,10 +268,9 @@
         </div>
   </section>
 
-<section class="box">
   <section class="box__charla">
 
-    <article class="box__charla__text">
+    <article class="box__charla__text" id="Asalto">
       <a  class="btn box__charla__text__button__asalto" data-bs-toggle="modal" data-bs-target="#asalto">               
         <h5><strong>ASALTO</strong></h5>
           <p>
@@ -201,9 +286,9 @@
         </a>
     </article>
 
-      <article class="box__charla__50__text">
-      <a  class="btn  box__charla__50__text__button__mmc" data-bs-toggle="modal" data-bs-target="#mmc">               
-        <h5><strong>MANEJO MANUAL DE CARGA</strong></h5>
+      <article class="box__charla__50__text" id="Extintores">
+      <a  class="btn  box__charla__50__text__button__extintores" data-bs-toggle="modal" data-bs-target="#extintores">               
+        <h5><strong>USO Y MANEJO DE EXTINTORES</strong></h5>
           <p>
            </p>
              <h6>
@@ -268,6 +353,118 @@
            </div>
         </div>
         
+       <div class="modal fade" id="extintores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Extintores</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/extintores.JPG" alt="riohs"/>
+    </picture>
+                    
+            <p class="type__charla__body__subtitle">Uso y manejo de extintores</p>
+        
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi doloremque,
+             adipisci alias cum tempora ipsum perferendis accusamus dolorum placeat dolor quis hic, 
+             non commodi blanditiis! Suscipit nobis laboriosam eveniet?
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis temporibus enim doloribus 
+             amet esse deleniti vel, eaque, hic quisquam accusamus vero distinctio 
+             iusto nihil omnis, explicabo debitis. Unde, ad.
+           </p>                 
+                  <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi doloremque,
+             adipisci alias cum tempora ipsum perferendis accusamus dolorum placeat dolor quis hic, 
+             non commodi blanditiis! Suscipit nobis laboriosam eveniet?
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis temporibus enim doloribus 
+             amet esse deleniti vel, eaque, hic quisquam accusamus vero distinctio 
+             iusto nihil omnis, explicabo debitis. Unde, ad.
+           </p>   
+                  <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi doloremque,
+             adipisci alias cum tempora ipsum perferendis accusamus dolorum placeat dolor quis hic, 
+             non commodi blanditiis! Suscipit nobis laboriosam eveniet?
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis temporibus enim doloribus 
+             amet esse deleniti vel, eaque, hic quisquam accusamus vero distinctio 
+             iusto nihil omnis, explicabo debitis. Unde, ad.
+           </p>   
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+  </section>
+</section>
+
+<section class="box" id="ManejoManualCarga">
+  <div class="title__charlas">
+        <h2>MANEJO MANUAL DE CARGAS</h2>
+    </div>
+  <section class="box__charla">
+
+    <article class="box__charla__text" id="UsoCorrectoMMC">
+      <a  class="btn box__charla__text__button__ayudaMMC" data-bs-toggle="modal" data-bs-target="#ayudasMecanicas">               
+        <h5><strong>USO CORRECTO DE AYUDAS MECÁNICAS</strong></h5>
+          <p>
+           </p>
+         <h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+          Ver mas
+        </h6>
+        
+        </a>
+    </article>
+
+      <article class="box__charla__50__text" id="ManejoManualCarga-2">
+      <a  class="btn  box__charla__50__text__button__mmc" data-bs-toggle="modal" data-bs-target="#mmc">               
+        <h5><strong>MANEJO MANUAL DE CARGA</strong></h5>
+          <p>
+           </p>
+             <h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+               Ver mas
+            </h6>
+          
+        </a>
+    </article>
+    
+      <div class="modal fade" id="ayudasMecanicas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">AYUDAS MECÁNICAS</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/ayudaMMC.JPG" alt="Ayudas Mecanicas"/>
+    </picture>
+         <p class="sub-title">Ayudas Mecánicas</p>
+            <p>
+                Aqui va el contenido jejeje
+            </p> 
+                           
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+        
        <div class="modal fade" id="mmc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-dialog-scrollable">
            <div class="modal-content" style="background-color: #f5f5dce3;">
@@ -280,38 +477,11 @@
         <img src="../assets/mmc.JPG" alt="riohs"/>
     </picture>
                     
-            <p class="type__charla__body__subtitle">Ante un amago de incendio</p>
+            <p class="type__charla__body__subtitle">Manejo Manual de Cargas</p>
         
-        <p class="type__charla__body__text">Si la persona que detecta el foco del incendio cuenta con entrenamiento en uso y manejo de
-          extintores, deberá percutar los extintores de incendios a la base del fuego. Una vez dada la
-          alarma la brigada de emergencia deberá acudir al lugar y deberá realizar la extinción del
-          fuego incipiente, con ayuda de los equipos que se encuentran disponibles para el combate del
-          fuego, las acciones que serán dirigidas y coordinadas por la Brigada de emergencias. Para
-          incendios fuera de control, la brigada procederá a evacuar las instalaciones y llamar a equipos
-          de emergencias(Bomberos 132). </p>
-
-        <p class="type__charla__body__subtitle" >Ante una evacuación</p>
-         <p class="type__charla__body__text">El jefe de emergencias solicitará a portería la activación de alarmas, se procederá a la
-        evacuación la cual estará liderada por el Jefe de emergencia y brigadistas, los cuales en
-        acciones coordinadas deberán dirigir a las personas utilizando megáfonos o a viva voz para el
-        orden y control de la gente hacia las zonas de seguridad.
-        <p class="itemp">• Actué en forma rápida y en silencio. No corra.</p>
-         <p class="itemp">• No se devuelva a buscar ninguna pertenencia a menos que reciba una instrucción.</p>
-         <p class="itemp">• En el desplazamiento por las escaleras, use el pasamanos.</p>
-         <p class="itemp">• Si hay humo, desplácese agachado a nivel de piso. Siga las instrucciones de los
-        brigadistas</p>
-      </p>
-
-
-      <p class="type__charla__body__subtitle" >Reingreso al lugar de trabajo</p>
-      <p class="type__charla__body__text">Una vez que todas las personas se encuentren en la zona de seguridad, el Jefe de emergencias
-        en conjunto con la brigada de emergencias y QHSE realizaran una revisión completa de las
-        instalaciones, verificando las condiciones actuales del lugar (solo si no se compromete la
-        integridad física de las personas).
-        Los líderes de evacuación deberán realizar un conteo del personal, agrupando a las personas
-        en la zona de seguridad. Una vez se determinen las condiciones de las instalaciones y la
-        presencia de todas las personas en las zonas de seguridad, el Jefe de emergencia anunciara el
-        regreso a las actividades.</p>      </p>                   
+        <p>
+        aqui va el contenido  
+        </p>                   
                     </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -322,6 +492,289 @@
         </div>
   </section>
 
+   <section class="box__charla">
+
+    <article class="box__charla__text" id="ExplicacionMMC">
+      <a  class="btn box__charla__text__button__explicacionMMC" data-bs-toggle="modal" data-bs-target="#explicacion">               
+        <h5><strong>¿QUÉ SE ENTIENDE POR MMC</strong></h5>
+          <p>
+           </p>
+         <h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+          Ver mas
+        </h6>
+        
+        </a>
+    </article>
+
+      <article class="box__charla__50__text" id="LesionesMMC">
+      <a  class="btn  box__charla__50__text__button__lesionesMMC" data-bs-toggle="modal" data-bs-target="#lesiones">               
+        <h5><strong>LESIONES ASOCIADAS AL MMC</strong></h5>
+          <p>
+           </p>
+             <h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+               Ver mas
+            </h6>
+          
+        </a>
+    </article>
+    
+      <div class="modal fade" id="explicacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">¿QUÉ SE ENTIENDE POR MMC</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/mmc-2.JPG" alt="Manejo Manual de Cargas"/>
+    </picture>
+         <p class="sub-title">Qué entiendes por MMC</p>
+            <p >
+              J
+        </p>                      
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+        
+       <div class="modal fade" id="lesiones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">LESIONES ASOCIADAS AL MMC</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/lesionesMMC.JPG" alt="Lesiones MMC"/>
+    </picture>
+                    
+            <p class="type__charla__body__subtitle">Lesiones asociadas al MMC</p>
+        
+        <p >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo corrupti 
+          at, blanditiis cum pariatur quo libero quae ducimus aperiam aut perferendis 
+          rerum nostrum sunt ratione similique hic optio praesentium.
+        </p>          
+        <p >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo corrupti 
+          at, blanditiis cum pariatur quo libero quae ducimus aperiam aut perferendis 
+          rerum nostrum sunt ratione similique hic optio praesentium.
+        </p>             
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+  </section>
+</section>
+
+<section class="box" id="ElementosProteccionPersonal">
+    <div class="title__charlas">
+        <h2>ELEMENTOS DE PROTECCÓN PERSONAL</h2>
+    </div>
+  <section class="box__charla">
+
+    <article class="box__charla__text" id="ElementosEPP">
+      <a  class="btn box__charla__text__button__epp" data-bs-toggle="modal" data-bs-target="#epp">               
+        <h5><strong>ELEMENTOS DE PROTECCÓN PERSONAL</strong></h5>
+          <p>
+           </p>
+         <h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+          Ver mas
+        </h6>
+        
+        </a>
+    </article>
+
+      <article class="box__charla__50__text" id="ResponsabilidadEPP">
+      <a  class="btn  box__charla__50__text__button__responsabilidadEPP" data-bs-toggle="modal" data-bs-target="#responsabilidadEPP">               
+        <h5><strong>RESPONSABILIDAD DEL EMPLEADOR </strong></h5>
+          <p>
+           </p>
+             <h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+               Ver mas
+            </h6>
+          
+        </a>
+    </article>
+    
+      <div class="modal fade" id="epp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">ELEMENTOS DE PROTECCÓN PERSONAL</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/epp.JPG" alt="ELementos de protección Personal"/>
+    </picture>
+        <p class="type__charla__body__subtitle">ELementos de protección personal</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos sapiente quia corporis ducimus quo dolor 
+          vel voluptatem corrupti, eaque quibusdam similique. Culpa placeat vero eius. Quisquam 
+          deleniti dignissimos earum. Reprehenderit.
+        </p>                
+         <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos sapiente quia corporis ducimus quo dolor 
+          vel voluptatem corrupti, eaque quibusdam similique. Culpa placeat vero eius. Quisquam 
+          deleniti dignissimos earum. Reprehenderit.
+        </p>                
+               
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+        
+       <div class="modal fade" id="responsabilidadEPP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">RESPONSABILIDAD DEL EMPLEADOR</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/responsabilidadEPP.JPG" alt="Responsabilidad legal empleador"/>
+    </picture>
+                    
+            <p class="type__charla__body__subtitle">Responsabilidad Legal</p>
+        
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error molestias similique excepturi perferendis, odit soluta exercitationem corporis 
+          nulla dolorum vero magnam nemo. Aut, debitis modi ipsa fuga exercitationem nam repellat?
+        </p>      
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error molestias similique excepturi perferendis, odit soluta exercitationem corporis 
+          nulla dolorum vero magnam nemo. Aut, debitis modi ipsa fuga exercitationem nam repellat?
+        </p>             
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+  </section>
+
+  <section class="box__charla">
+
+    <article class="box__charla__text" id="TiposEPP">
+      <a  class="btn box__charla__text__button__tiposEPP" data-bs-toggle="modal" data-bs-target="#tipoEPP">               
+        <h5><strong>TIPOS DE EPP</strong></h5>
+          <p>
+           </p>
+         <h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+          Ver mas
+        </h6>
+        
+        </a>
+    </article>
+
+      <article class="box__charla__50__text" id="CuidadoEPP" >
+      <a  class="btn  box__charla__50__text__button__cuidadoEPP" data-bs-toggle="modal" data-bs-target="#cuidadoEPP">               
+        <h5><strong>USO Y CUIDADO DE EPP</strong></h5>
+          <p>
+           </p>
+             <h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+               Ver mas
+            </h6>
+          
+        </a>
+    </article>
+    
+      <div class="modal fade" id="tipoEPP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">TIPOS DE EPP</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/tiposEPP.JPG" alt="Tipos de EPP"/>
+    </picture>
+         <p class="sub-title">Tipos de EPP</p>
+          <p>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic corrupti perferendis, voluptatem ullam aperiam id eius eaque explicabo
+             veniam velit iure temporibus libero natus consequuntur, quae ab quis? Iste, iusto.
+          </p>                    
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+        
+       <div class="modal fade" id="cuidadoEPP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__charla__modal">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">CUIDADO DE EPP</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__charla__body">
+                               <picture class="type__charla__body__img">
+        <img src="../assets/cuidadoEPP.JPG" alt="Cuidado de EPP"/>
+    </picture>
+                    
+            <p class="type__charla__body__subtitle">Cuidado de EPP</p>
+        
+        <p >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, dignissimos consequatur quo molestias tempore eos sunt officiis quisquam hic
+           itaque consectetur, fugiat unde soluta repellendus nobis quibusdam iste vero impedit?
+        </p>                
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" hidden>Save changes</button>
+                      </div>
+              </div>  
+           </div>
+        </div>
+  </section>
+</section>
  
 
   

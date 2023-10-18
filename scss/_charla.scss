@@ -1,10 +1,55 @@
 .modal-dialog{
     max-width: 80%;
 }
+.portada{
+        background-image: url(../assets/portada-charla.JPG);
+    width: 100%;
+    height: 600px;
+    //background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        height: 600px;
+       
+    }
+}
+.acordion{
+    background-color: rgb(232 232 232);
+    margin: 20px;
+    box-shadow: 4px -2px 6px 0px gray;
+    &__menu{
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+    &__submenu{
+        display: flex;
+       
+        align-items: center;
+        text-decoration: none;
+        padding: 20px 0px 5px 0px;
+        &:hover{
+            background-color: gray;
+            color:white;
+            padding: 20px;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+
 .title__charlas{
     justify-content: center;
     display: flex;
     text-align: center;
+    background-color: black;
+    padding: 80px;
+    color: white;
 }
 .box{
     width: 100%;
@@ -22,6 +67,9 @@
                  //background-color: #adadad;
                  margin:10px;
                  padding: 30px;
+                 box-shadow: 4px -7px 13px 0px #cdcdcd;
+                background-color: #e4e4e4;
+                border-radius: 5px;
                
                 &__button__sismo{
                     display: flex;
@@ -33,7 +81,7 @@
                     background-color: #adadad;
                     background-image: url(../assets/sismo.JPG);
                         &:hover{
-                         transform: scale(1.1);
+                         transform: scale(1.01);
             }
                    h5{
                     display: flex;
@@ -43,7 +91,7 @@
                    h6{
                     color:white;
                     &:hover{
-                        transform: scale(1.5);
+                        transform: scale(1.01);
                         color:blue;
                     }
                    }
@@ -58,7 +106,7 @@
                     background-color: #adadad;
                     background-image: url(../assets/asalto.JPG);
                         &:hover{
-                         transform: scale(1.1);
+                         transform: scale(1.01);
             }
                    h5{
                     display: flex;
@@ -68,12 +116,111 @@
                    h6{
                     color:white;
                       &:hover{
-                        transform: scale(1.5);
+                        transform: scale(1.01);
                         color:blue;
                     }
                    }
                 }
-              
+                  &__button__ayudaMMC{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/ayudaMMC.JPG);
+                        &:hover{
+                         transform: scale(1.01);
+            }
+                   h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                }
+                  &__button__explicacionMMC{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/mmc-2.JPG);
+                        &:hover{
+                         transform: scale(1.01);
+            }
+                   h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                }
+                 &__button__epp{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/epp.JPG);
+                        &:hover{
+                         transform: scale(1.01);
+            }
+                   h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                }
+                 &__button__tiposEPP{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/tiposEPP.JPG);
+                        &:hover{
+                         transform: scale(1.01);
+            }
+                   h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                }
          }
          &__50__text{
             display: flex;
@@ -82,6 +229,9 @@
             //background-color: #adadad;
             margin:10px;
             padding: 30px;
+             box-shadow: 4px -7px 13px 0px #cdcdcd;
+                background-color: #e4e4e4;
+                border-radius: 5px;
          
 
                 &__button__incendio{
@@ -95,7 +245,7 @@
                     background-color: #adadad;
                     background-image: url(../assets/incendio.JPG);
                        &:hover{
-                         transform: scale(1.1);
+                         transform: scale(1.01);
             }
                    h5{
                     display: flex;
@@ -105,7 +255,7 @@
                    h6{
                     color:white;
                       &:hover{
-                        transform: scale(1.5);
+                        transform: scale(1.01);
                         color:blue;
                     }
                    }
@@ -120,7 +270,7 @@
                     background-color: #adadad;
                     background-image: url(../assets/mmc.JPG);
                                &:hover{
-                         transform: scale(1.1);
+                         transform: scale(1.01);
             }
                     h5{
                     display: flex;
@@ -130,7 +280,108 @@
                    h6{
                     color:white;
                       &:hover{
-                        transform: scale(1.5);
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                 }
+                  &__button__extintores{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/extintores.JPG);
+                               &:hover{
+                         transform: scale(1.01);
+            }
+                    h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                 }
+                  &__button__lesionesMMC{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/lesionesMMC.JPG);
+                               &:hover{
+                         transform: scale(1.01);
+            }
+                    h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                 }
+                      &__button__responsabilidadEPP{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/responsabilidadEPP.JPG);
+                               &:hover{
+                         transform: scale(1.01);
+            }
+                    h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
+                        color:blue;
+                    }
+                   }
+                 }
+
+                 &__button__cuidadoEPP{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 350px;
+                    background-color: #adadad;
+                    background-image: url(../assets/cuidadoEPP.JPG);
+                               &:hover{
+                         transform: scale(1.01);
+            }
+                    h5{
+                    display: flex;
+                    align-items: center;
+                    color:white;
+                   }
+                   h6{
+                    color:white;
+                      &:hover{
+                        transform: scale(1.01);
                         color:blue;
                     }
                    }
@@ -173,7 +424,7 @@
             }
         }
 .type__charla__body__subtitle{
-    color:blue;
+    color:rgb(22, 22, 58);
     font-weight: 700;
 }
 
