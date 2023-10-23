@@ -1,0 +1,56 @@
+
+@media (max-width:700px){
+.cont__grid__index{
+    display:grid;
+    grid-template-areas: 
+    "links "
+    "content_index "
+     "content_index "
+          "content_index "
+    "foot "
+    ;
+}
+.cont__nav__menu{
+    grid-area: links;
+  
+}
+.cont__body{
+    grid-area: content_index;
+    
+}
+.cont__footer{
+    grid-area: foot;
+    
+  
+}
+
+.box__charla {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box__charla__text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
+    box-shadow:none;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+}
+.box__charla__50__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
+    box-shadow: none;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+}
+
+
+
+
+}
