@@ -23,7 +23,9 @@
     
   
 }
-
+.modal-dialog{
+    max-width: none;
+}
 .box__charla {
     display: flex;
     flex-direction: column;
