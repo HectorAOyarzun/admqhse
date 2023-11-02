@@ -26,7 +26,7 @@ var errores = 0;
 palabras_array.push("PELIGRO");
 palabras_array.push("EPP");
 palabras_array.push("CASCO");
-palabras_array.push("EVACUACION")
+palabras_array.push("EVACUACIóN")
 
 
         
@@ -93,7 +93,7 @@ function pistaFunction(palabra){
         case 'CASCO':
             pista = "Brinda protección a la cabeza";
             break;
-        case 'EVACUACION':
+        case 'EVACUACIÓN':
             pista = "Esta prohibido correr durante una...";
             break;
              
