@@ -491,6 +491,68 @@ html {
   font-weight: 700;
 }
 
+.title__game {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #008989;
+  padding: 20px;
+  color: white;
+}
+
+.ruleta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background-color: #008989;
+}
+.ruleta__charla {
+  display: flex;
+  flex-direction: column;
+}
+.ruleta__charla__button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.ruleta__charla__button input {
+  background-color: rgb(5, 5, 92);
+  padding: 15px;
+  color: white;
+  box-shadow: 2px -2px 3px 0px #aeadad;
+}
+.ruleta__charla__canva {
+  display: flex;
+  width: 100%;
+}
+.ruleta__charla__canva__canvas {
+  width: 100%;
+}
+
+.ahorcado {
+  background-color: #008989;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.ahorcado__canvas {
+  display: flex;
+  justify-content: center;
+}
+.ahorcado .boton-b {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /*
 * Media Queries
 */
@@ -535,6 +597,11 @@ html {
     box-shadow: none;
     background-color: #e4e4e4;
     border-radius: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .ahorcado {
+    content-visibility: hidden;
   }
 }
 
